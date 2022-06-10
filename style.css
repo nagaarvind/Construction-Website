@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image:url(./img/pexels-engin-akyurt-2036686.jpg);
+    background-size:cover;
+    color: white;
+    padding: 0 9%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: left;
+    padding: 20px 70px 90px;
+    
+}
+nav img{
+    width: 10%;
+    border-radius: 50% ; 
+    
+
+}
+li{
+    display: inline-table;
+    list-style: none;
+    margin: 40px 25px ;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    
+}
+a:hover{
+    color: rgb(26, 41, 173);
+}
+.text-area{
+    margin-top: 7%;
+    font-size: 1px;
+    font-style: italic;
+    color: white;
+    margin-left: 4px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 200px;
+    margin-bottom: -40px;
+    font-style: italic;
+    color: white;
+}
+button{
+    font-size: 10px;
+    padding: 10px 20px;
+    border-style: none;
+    background-color: orange;
+    border-radius: 10%;
+}
+
+.Features{
+    height: 7vh;
+    width: 90%;
+    border-radius: 50%;
+    line-height: 30px;
+    font-style: oblique;
+    align-items: center;
+    padding: 5%;
+    
+}
+.section{
+    height:78vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.child1{
+    height:430px;
+    width: 20px;
+    flex-grow: 1;
+    line-height: 30px;
+    padding: 6%;
+    font-size: 20px;
+}
+.child2{
+    height: 440px;
+    width: 190px;
+    flex-grow: 1;
+    line-height: 30px;
+    padding: 6%;
+    font-size: 15px;
+}
+.child3{
+    height: 400px;
+    width: 190px;
+    flex-grow: 1;
+    line-height:35px;
+    padding: 6%;
+    font-size: 20px;
+}
+.child1 img{
+    width: 70px;
+   }
+
+.child2 img{
+    width: 50%;
+}
+.child3 img{
+    width: 30%;
+}
+.child1 h3{
+    font-size: 17px;
+    margin-bottom: 20px;
+    
+}
+.child2 h4{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.child3 h5{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.footer{
+    height: 10px;
+    width: 4px;
+    flex-grow: 4;
+    line-height: 30px;
+    padding: 9%;
+    font-size: 20px;
+   
+}
+.footer:hover{
+    color: rgb(247, 3, 3);
+}
